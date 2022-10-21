@@ -1,0 +1,12 @@
+.container{
+   position: absolute;
+   /* top: 50%; */
+   left: 25%;
+}
+.bars{
+    width: 2px;
+    /* height: 30px; */
+    background-color: purple;
+    display: inline-block;
+    margin: 3px;
+}
