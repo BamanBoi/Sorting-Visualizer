@@ -18,6 +18,7 @@ function selectionSortHelper(mainArray, animations) {
             }
         }
         animations.push([i, min_index, mainArray[i], mainArray[min_index]]);
+        animations.push([i, min_index, mainArray[i], mainArray[min_index]]);
         mainArray = swap(mainArray, min_index, i);
     }
     

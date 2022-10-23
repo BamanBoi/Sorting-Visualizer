@@ -13,6 +13,7 @@ function heapSortHelper(array,animations,n){
     build_max_heap(array,n,animations);
     for(let i=n-1;i>=1;i--){
         animations.push([0,i,array[0],array[i]]);
+        animations.push([0,i,array[0],array[i]]);
        swap(array,0,i);
        heapify(array,0,i-1,animations);
     }
@@ -29,6 +30,7 @@ function heapify(array,i,n,animations){
     }
     if (largest!==i)
     {
+        animations.push([largest,i,array[largest],array[i]]);
         animations.push([largest,i,array[largest],array[i]]);
         swap(array,largest,i);
         heapify(array,largest,n,animations);

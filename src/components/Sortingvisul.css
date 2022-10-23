@@ -10,3 +10,30 @@
     display: inline-block;
     margin: 3px;
 }
+.resetArray{
+    display: flex;
+    margin: 4px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.button2{
+    background-color: aqua;
+}
+.buttons{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin: 2 auto;
+}
+.button{
+    background-color: aqua;
+    margin: 2px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 80%;
+    zoom: 110%;
+}

@@ -13,9 +13,11 @@ function insertionSortHelper(array,animations){
         while(j>=0 && array[j]>temp){
             array[j+1]=array[j];
             animations.push([j+1,j,array[j+1],array[j]]);
+            animations.push([j+1,j,array[j+1],array[j]]);
             j--;
         }
         array[j+1]=temp;
+        animations.push([j+1,j+1,array[j+1],temp]);
         animations.push([j+1,j+1,array[j+1],temp]);
     }
 }

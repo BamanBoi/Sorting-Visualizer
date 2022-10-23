@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Sortingvisul from './components/Sortingvisul';
+import NavBar from './components/NavBar';
 function App() {
   return (
     <>
-     <Sortingvisul/>
+    <NavBar/>
+    <Sortingvisul />
     </>
   );
 }
